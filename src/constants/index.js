@@ -233,6 +233,7 @@ const projects = [
     image: tshirt,
     source_code_link:
       "https://github.com/oguzhanuzunay/ai-powered-3d-t-shirt-design/",
+    live_path: "/ai-powered-3d-t-shirt-design/",
   },
   {
     name: "Modern-UI-UX-ChatGPT",
@@ -254,6 +255,7 @@ const projects = [
     ],
     image: gpt,
     source_code_link: "https://github.com/oguzhanuzunay/Modern-UI-UX-Website/",
+    live_path: "/Modern-UI-UX-Website/",
   } /*
   {
     
