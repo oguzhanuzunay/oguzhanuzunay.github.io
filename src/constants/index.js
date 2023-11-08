@@ -15,8 +15,8 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
+  tshirt,
+  gpt,
   tripguide,
   threejs,
   adcropper,
@@ -209,9 +209,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "AI Powered 3D T-Shirt Design",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based application that allows the user to design fully customizable and unique t-shirts powered by AI (DALL·E) in a 3D environment.",
     tags: [
       {
         name: "react",
@@ -225,21 +225,26 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "three.js",
+        color: "white-text-gradient",
+      },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: tshirt,
+    source_code_link:
+      "https://github.com/oguzhanuzunay/ai-powered-3d-t-shirt-design/",
   },
   {
-    name: "Job IT",
+    name: "Modern-UI-UX-ChatGPT",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "ChatGPT alternative re-created web page with modern UI and UX. converted from Figma design to fully responsive website.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "figma design",
         color: "green-text-gradient",
       },
       {
@@ -247,10 +252,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
+    image: gpt,
+    source_code_link: "https://github.com/oguzhanuzunay/Modern-UI-UX-Website/",
+  } /*
   {
+    
     name: "Trip Guide",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
@@ -270,7 +276,8 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
-  },
+ 
+  }, */,
 ];
 
 export { services, technologies, experiences, testimonials, projects };

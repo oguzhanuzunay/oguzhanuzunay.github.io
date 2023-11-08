@@ -27,8 +27,8 @@ import beko from "./company/beko.png";
 import insider from "./company/insider.png";
 import redqueen from "./company/redqueen.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import tshirt from "./tshirt.png";
+import gpt from "./gpt.jpeg";
 import tripguide from "./tripguide.png";
 
 export {
@@ -58,8 +58,7 @@ export {
   beko,
   insider,
   redqueen,
-
-  carrent,
-  jobit,
+  tshirt,
+  gpt,
   tripguide,
 };

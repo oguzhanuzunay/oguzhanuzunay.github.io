@@ -78,4 +78,4 @@ const Works = () => {
 }
 
 // eslint-disable-next-line react-refresh/only-export-components
-export default SectionWrapper(Works,"");
+export default SectionWrapper(Works,"projects");
