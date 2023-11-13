@@ -17,7 +17,7 @@ import {
   docker,
   tshirt,
   gpt,
-  tripguide,
+  dev_overflow,
   threejs,
   adcropper,
   kartelam,
@@ -222,7 +222,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindCSS",
         color: "pink-text-gradient",
       },
       {
@@ -256,30 +256,38 @@ const projects = [
     image: gpt,
     source_code_link: "https://github.com/oguzhanuzunay/Modern-UI-UX-Website/",
     live_path: "/Modern-UI-UX-Website/",
-  } /*
+  },
   {
-    
-    name: "Trip Guide",
+    name: "Dev OverFlow",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The project is currently still in development. The stack overflow, alternatives using the latest features of next.js 14, next.js back-end and clerk. Developed most features on Stack overflow, including reputation, voting, badges etc. Latest technologies have been developed using extensive with best practices.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwindCSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "clerk",
+        color: "white-text-gradient",
+      },
+      {
+        name: "figma Design",
+        color: "red-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
- 
-  }, */,
+    image: dev_overflow,
+    source_code_link: "https://github.com/oguzhanuzunay/dev_flow_nextjs14/",
+    live_path: "https://dev-flow-nextjs13.vercel.app/",
+
+  },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

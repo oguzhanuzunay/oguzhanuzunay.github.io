@@ -30,7 +30,7 @@ import redqueen from "./company/redqueen.png";
 
 import tshirt from "./tshirt.png";
 import gpt from "./gpt.jpeg";
-import tripguide from "./tripguide.png";
+import dev_overflow from "./dev_overflow.png";
 
 export {
   logo,
@@ -62,5 +62,5 @@ export {
   redqueen,
   tshirt,
   gpt,
-  tripguide,
+  dev_overflow,
 };
