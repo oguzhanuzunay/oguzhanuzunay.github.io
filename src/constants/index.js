@@ -260,7 +260,7 @@ const projects = [
   {
     name: "Dev OverFlow",
     description:
-      "The project is currently still in development. The stack overflow, alternatives using the latest features of next.js 14, next.js back-end and clerk. Developed most features on Stack overflow, including reputation, voting, badges etc. Latest technologies have been developed using extensive with best practices.",
+      "The project is currently still in development... The stack overflow alternative covers all features which are reputation, voting, badges etc. using the latest features of Next.js 14, Next.js back-end and Clerk with extensive with best practices.",
     tags: [
       {
         name: "nextjs",
@@ -277,10 +277,6 @@ const projects = [
       {
         name: "clerk",
         color: "white-text-gradient",
-      },
-      {
-        name: "figma Design",
-        color: "red-text-gradient",
       },
     ],
     image: dev_overflow,
