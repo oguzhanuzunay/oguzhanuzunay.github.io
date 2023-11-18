@@ -31,6 +31,7 @@ import redqueen from "./company/redqueen.png";
 import tshirt from "./tshirt.png";
 import gpt from "./gpt.jpeg";
 import dev_overflow from "./dev_overflow.png";
+import nike from "./nike-langing-page.jpeg";
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   tshirt,
   gpt,
   dev_overflow,
+  nike,
 };

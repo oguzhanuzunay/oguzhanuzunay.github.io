@@ -24,6 +24,7 @@ import {
   beko,
   insider,
   redqueen,
+  nike,
 } from "../assets";
 
 export const navLinks = [
@@ -236,28 +237,6 @@ const projects = [
     live_path: "/ai-powered-3d-t-shirt-design/",
   },
   {
-    name: "Modern-UI-UX-ChatGPT",
-    description:
-      "ChatGPT alternative re-created web page with modern UI and UX. converted from Figma design to fully responsive website.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "figma design",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: gpt,
-    source_code_link: "https://github.com/oguzhanuzunay/Modern-UI-UX-Website/",
-    live_path: "/Modern-UI-UX-Website/",
-  },
-  {
     name: "Dev OverFlow",
     description:
       "The project is currently still in development... The stack overflow alternative covers all features which are reputation, voting, badges etc. using the latest features of Next.js 14, Next.js back-end and Clerk with extensive with best practices.",
@@ -282,7 +261,50 @@ const projects = [
     image: dev_overflow,
     source_code_link: "https://github.com/oguzhanuzunay/dev_flow_nextjs14/",
     live_path: "https://dev-flow-nextjs13.vercel.app/",
-
+  },
+  {
+    name: "Nike Landing Page",
+    description:
+      "A modern landing page for Nike 2.0, built with Tailwind CSS, React.js, and Vite.js.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindCSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Vite.js",
+        color: "white-text-gradient",
+      },
+    ],
+    image: nike,
+    source_code_link: "https://github.com/oguzhanuzunay/nike-landing-page",
+    live_path: "/nike-landing-page/",
+  },
+  {
+    name: "Modern-UI-UX-ChatGPT",
+    description:
+      "ChatGPT alternative re-created web page with modern UI and UX. converted from Figma design to fully responsive website.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "figma design",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gpt,
+    source_code_link: "https://github.com/oguzhanuzunay/Modern-UI-UX-Website/",
+    live_path: "/Modern-UI-UX-Website/",
   },
 ];
 
