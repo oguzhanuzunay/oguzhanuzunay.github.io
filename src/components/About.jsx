@@ -63,7 +63,9 @@ const About = () => {
           </p>
           <h2 className="font-bold">TECHNICAL SKILLS:</h2>
           <div className="mb-5 list-disk ml-5 space-y-1">
-            <li>Specialized in JavaScript, React.js, Next.js, Typescript</li>
+            <li>
+              Specialized in JavaScript, React.js, Next.js, Typescript, Three.js
+            </li>
             <li>
               Tailwind, Material UI, Bootstrap, Sass, Node.js, HTML, CSS,
               JavaScript, Mongo, Git

@@ -17,15 +17,21 @@ const Hero = () => {
 
         <div className="w-full">
           <h1 className={`${styles.heroHeadText} `}>
-            Hi, I&apos;m
+            Hi, I&apos;m&nbsp;
             <a
               href="https://github.com/oguzhanuzunay"
               target="_blank"
               rel="noreferrer"
+              className="inline-block"
             >
               <span className="text-[#915eff]">
-                &nbsp;
-                <img src={github} height={80} width={80} className="inline " />
+                <img
+                  src={github}
+                  alt="github"
+                  height={80}
+                  width={80}
+                  className="inline max-sm:max-w-[62px] max-sm:h-[62px] rounded-full max-sm:-ml-2"
+                />
                 ğuzhan
               </span>
             </a>
